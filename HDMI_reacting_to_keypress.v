@@ -60,6 +60,8 @@ assign bit_xnor = hc[9:0]^ ~vc[9:0];
 
 reg [9:0] out_bit ;
 
+reg [1:0] count2; //to keep track of the shifts
+
 
 // For holding the outward bound TMDS symbols in the slow and fast domain
 reg [9:0] c0_symbol; reg [9:0] c0_high_speed;
@@ -134,6 +136,21 @@ latch_high_speed <= latch_high_speed + 1'b1;
 end
 end
 
+always @(posedge latch_high_speed[2]) begin 
+
+      case(count2)
+	  
+        2'b00: out_bit = bit_or;  
+        2'b01: out_bit = bit_xor;
+        2'b10: out_bit = bit_and;
+        2'b11: out_bit = bit_nand;			
+
+       default: out_bit = bit_xnor;
+       endcase
+	   
+count2  <= count2 + 1;
+end
+
 always @(*) // display 100% saturation colourbars
 begin
 // first check if we're within vertical active video range
@@ -144,7 +161,7 @@ begin
 // -----------------
 // display white bar
 
-if (hc >= hbp && hc < hfp && (bit_xor[8:0] == key[8:0]))
+if (hc >= hbp && hc < hfp && (out_bit[8:0] == key[8:0]))
 begin
 c2_symbol = 10'b1011110000; // red
 c1_symbol = 10'b1011110000; // green
