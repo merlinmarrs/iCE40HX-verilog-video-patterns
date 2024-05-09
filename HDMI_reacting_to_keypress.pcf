@@ -1,0 +1,27 @@
+set_io clk_in 49
+set_io reset 66
+
+set_io r_out[0] 91
+set_io r_out[1] 95
+set_io r_out[2] 96
+
+set_io g_out[0] 75
+set_io g_out[1] 74
+set_io g_out[2] 73
+
+set_io b_out[0] 87
+set_io b_out[1] 88
+set_io b_out[2] 90
+
+set_io key[0] 37
+set_io key[1] 38
+set_io key[2] 39
+set_io key[3] 41
+set_io key[4] 42
+set_io key[5] 43
+set_io key[6] 44
+set_io key[7] 45
+set_io key[8] 47
+
+set_io led_red 
+set_io led_green 

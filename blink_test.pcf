@@ -1,0 +1,6 @@
+set_io clk 49
+
+set_io reset 66
+
+set_io LED1 28
+set_io LED5 29
