@@ -51,7 +51,7 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 
 # HARDWARE BUILD INSTRUCTIONS
 
-[a link]()
+[KiCAD and Eagle PCBs](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
 
 **Option #0 : PCB Fab+Assembly**
 
