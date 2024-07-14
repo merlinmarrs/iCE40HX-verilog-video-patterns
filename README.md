@@ -1,9 +1,10 @@
 ![bechamel_logo_Plan de travail 1](https://github.com/user-attachments/assets/a3b16d4a-b1e6-4357-a8fe-4a8e616bc0d5)
 
-# Live-Playable Video FPGA Dev Board
+# Video FPGA Dev Board
 
+A Lattice iCE40HX1K-based FPGA developement board for live-playable video experiments.
 
-A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists for **live-playable video experiments**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![image](https://github.com/user-attachments/assets/bf17c343-4a2a-4723-ada7-5bc602cbb8f3) 
 
@@ -16,7 +17,7 @@ A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists f
 
 # Features :
 
-- Tangible, playable mechanical button interface
+- 9-key mechanical button interface
 - Relatively low-cost, single board design
 - HDMI and VGA out
 - Reverse polarity and fuse protection
@@ -68,12 +69,6 @@ To compile and upload files :
 ![image](https://github.com/user-attachments/assets/38ef87e1-ef5c-4168-aa9f-647281c609ce)
 
 
-
-## License
-
-MIT
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Acknowledgements
 
