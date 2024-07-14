@@ -1,15 +1,15 @@
 # Béchamel Live-Playable Video FPGA Dev Board
 
+
+
 A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists for **live-playable video experiments**.
 
+![bechamel_logo_Plan de travail 1](https://github.com/user-attachments/assets/a3b16d4a-b1e6-4357-a8fe-4a8e616bc0d5)
 
-Text             |  Text
+
+|                          |                          |
 :-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/bf17c343-4a2a-4723-ada7-5bc602cbb8f3)  | ![open_source](https://github.com/user-attachments/assets/3fbdfb6a-2741-4e5c-9634-7913a16e93b9) 
-
-
-Text             |  Text
-:-------------------------:|:-------------------------:
 ![image](https://github.com/user-attachments/assets/ec43d231-f804-41db-ba54-e15a378fc0b0)  | ![image](https://github.com/user-attachments/assets/5524e9eb-a8dd-4333-9468-72597a95a8ff)
 
 
@@ -50,6 +50,8 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 
 
 # HARDWARE BUILD INSTRUCTIONS
+
+[a link]()
 
 **Option #0 : PCB Fab+Assembly**
 
