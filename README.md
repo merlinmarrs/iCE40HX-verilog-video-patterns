@@ -1,9 +1,28 @@
-# iCE40HX1K Dev Board with Buttons
+# Béchamel Live-Playable Video FPGA Dev Board
 
-A Lattice iCE40HX1K based **FPGA Dev Board** geared towards DIYers and artists for **live-playable video experiments**.
+A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists for **live-playable video experiments**.
 
 ![image](https://github.com/user-attachments/assets/bf17c343-4a2a-4723-ada7-5bc602cbb8f3)
 
+![open_source](https://github.com/user-attachments/assets/3fbdfb6a-2741-4e5c-9634-7913a16e93b9)
+
+![image](https://github.com/user-attachments/assets/ec43d231-f804-41db-ba54-e15a378fc0b0)
+
+![image](https://github.com/user-attachments/assets/5524e9eb-a8dd-4333-9468-72597a95a8ff)
+
+# About the Béchamel :
+
+Developed to be a fun video synthesis device to either modify a video stream or generate simple reactive patterns.
+
+Béchamel started off as a discrete logic chip synth device and has since evolved into a more flexible FPGA platform.
+
+
+# Features :
+
+- Tangible, playable mechanical button interface
+- Relatively low-cost, single board design
+- HDMI and VGA out
+- Reverse polarity and fuse protection
 
 # Minimal BOM :
 - 1x PCB
@@ -29,6 +48,8 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 
 # HARDWARE BUILD INSTRUCTIONS
 
+**Option #0 : PCB Fab+Assembly**
+
 **Option #1 : Stencil + PCB oven**
 
 **Option #2 : Hand soldering (with flux)**
@@ -43,4 +64,11 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 
 [iCEcube2](https://www.latticesemi.com/iCEcube2)
 
+- Request a licence by email
+- Install iCEcube2 and Diamond Programmer
+- Start a new project, load verilog files(.v) and pin constraints (.pcf)
+- Upload binary file to flash memory
 
+## License
+
+MIT
