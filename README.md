@@ -25,7 +25,6 @@ A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists f
 
 [Excel BOM Mouser / Digikey ](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
 
-- 1x PCB
 - 9x Mechanical keyboard keys
 - 1x FPGA iCE40HX1K-TQ144
 - 1x 100MHz clock oscillator
@@ -46,37 +45,41 @@ A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists f
 optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiometers, 1x fast op-amp, 1x 3.5mm audio jack, 1x dual SMD dip switch, 1x SMD pushbutton)
 
 
-# Hardware Build Instructions
+# PCB files
 
 [KiCAD and Eagle PCBs](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
 
 ![open_source](https://github.com/user-attachments/assets/3fbdfb6a-2741-4e5c-9634-7913a16e93b9) 
 
-**Option #0 : PCB Fab+Assembly**
-
-**Option #1 : Stencil + PCB oven**
-
-**Option #2 : Hand soldering (with flux)**
 
 # HDL files
 
 [Verilog, Pin constraints, and synthesized binaries ](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/verilog)
 
-**Option #1 : Open-source Toolchain**
+To compile and upload files :
 
-[Yoysis](https://github.com/YosysHQ/yosys)
+[Yoysis Open-source Toolchain ](https://github.com/YosysHQ/yosys)
 
-**Option #2 : IceCube2 Toolchain**
+![image](https://github.com/user-attachments/assets/e97e0af4-468f-498d-b59e-337a35ea7318)
 
-[iCEcube2](https://www.latticesemi.com/iCEcube2)
 
-- Request a licence by email
-- Install iCEcube2 and Diamond Programmer
-- Start a new project, load verilog files(.v) and pin constraints (.pcf)
-- Upload binary file to flash memory
+[iCEcube2 Toolchain](https://www.latticesemi.com/iCEcube2)
+
+![image](https://github.com/user-attachments/assets/38ef87e1-ef5c-4168-aa9f-647281c609ce)
+
+
 
 ## License
 
 MIT
 
-## Contributors
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Acknowledgements
+
+Mike Field <hamster@snap.net.nz> for his minimalDVID_encoder.vhd : A quick and dirty DVI-D implementation
+
+OLIMEX FPGA dev board https://github.com/OLIMEX/iCE40HX1K-EVB/tree/master
+
+ALHAMBRA FPGA https://github.com/FPGAwars/Alhambra-II-FPGA/tree/master
+
