@@ -59,9 +59,9 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 
 **Option #2 : Hand soldering (with flux)**
 
-# SOFTWARE BUILD INSTRUCTIONS
+# HDL BUILD INSTRUCTIONS
 
-[Verilog](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
+[Verilog, Pin constraints, and synthesized binaries ](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/verilog)
 
 **Option #1 : Open-source Toolchain**
 
