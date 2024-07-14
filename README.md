@@ -78,3 +78,5 @@ OLIMEX FPGA dev board https://github.com/OLIMEX/iCE40HX1K-EVB/tree/master
 
 ALHAMBRA FPGA https://github.com/FPGAwars/Alhambra-II-FPGA/tree/master
 
+HDL Bits https://hdlbits.01xz.net/wiki/Main_Page
+
