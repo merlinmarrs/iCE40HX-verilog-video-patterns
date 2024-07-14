@@ -5,19 +5,13 @@
 
 A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists for **live-playable video experiments**.
 
+![image](https://github.com/user-attachments/assets/bf17c343-4a2a-4723-ada7-5bc602cbb8f3) 
 
 
 |                          |                          |
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/bf17c343-4a2a-4723-ada7-5bc602cbb8f3)  | ![open_source](https://github.com/user-attachments/assets/3fbdfb6a-2741-4e5c-9634-7913a16e93b9) 
 ![image](https://github.com/user-attachments/assets/ec43d231-f804-41db-ba54-e15a378fc0b0)  | ![image](https://github.com/user-attachments/assets/5524e9eb-a8dd-4333-9468-72597a95a8ff)
 
-
-# About the Béchamel :
-
-Developed to be a fun video synthesis device to either modify a video stream or generate simple reactive patterns.
-
-Béchamel started off as a discrete logic chip synth device and has since evolved into a more flexible FPGA platform.
 
 
 # Features :
@@ -28,6 +22,9 @@ Béchamel started off as a discrete logic chip synth device and has since evolve
 - Reverse polarity and fuse protection
 
 # Minimal BOM :
+
+[Excel BOM Mouser / Digikey ](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
+
 - 1x PCB
 - 9x Mechanical keyboard keys
 - 1x FPGA iCE40HX1K-TQ144
@@ -52,6 +49,8 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 # Hardware Build Instructions
 
 [KiCAD and Eagle PCBs](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
+
+![open_source](https://github.com/user-attachments/assets/3fbdfb6a-2741-4e5c-9634-7913a16e93b9) 
 
 **Option #0 : PCB Fab+Assembly**
 
