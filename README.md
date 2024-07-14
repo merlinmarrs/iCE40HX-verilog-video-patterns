@@ -2,9 +2,9 @@
 
 A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists for **live-playable video experiments**.
 
-![image](https://github.com/user-attachments/assets/bf17c343-4a2a-4723-ada7-5bc602cbb8f3) | ![open_source](https://github.com/user-attachments/assets/3fbdfb6a-2741-4e5c-9634-7913a16e93b9)
+| ![image](https://github.com/user-attachments/assets/bf17c343-4a2a-4723-ada7-5bc602cbb8f3) | ![open_source](https://github.com/user-attachments/assets/3fbdfb6a-2741-4e5c-9634-7913a16e93b9) |
 
-![image](https://github.com/user-attachments/assets/ec43d231-f804-41db-ba54-e15a378fc0b0) | ![image](https://github.com/user-attachments/assets/5524e9eb-a8dd-4333-9468-72597a95a8ff)
+| ![image](https://github.com/user-attachments/assets/ec43d231-f804-41db-ba54-e15a378fc0b0) | ![image](https://github.com/user-attachments/assets/5524e9eb-a8dd-4333-9468-72597a95a8ff) |
 
 
 # About the Béchamel :
