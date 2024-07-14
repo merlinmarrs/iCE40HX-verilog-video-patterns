@@ -61,6 +61,8 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 
 # SOFTWARE BUILD INSTRUCTIONS
 
+[Verilog](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
+
 **Option #1 : Open-source Toolchain**
 
 [Yoysis](https://github.com/YosysHQ/yosys)
