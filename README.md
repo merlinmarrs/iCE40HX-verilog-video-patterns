@@ -1,10 +1,10 @@
-# Béchamel Live-Playable Video FPGA Dev Board
+![bechamel_logo_Plan de travail 1](https://github.com/user-attachments/assets/a3b16d4a-b1e6-4357-a8fe-4a8e616bc0d5)
 
+# Live-Playable Video FPGA Dev Board
 
 
 A Lattice iCE40HX1K-based **FPGA Dev Board** geared towards DIYers and artists for **live-playable video experiments**.
 
-![bechamel_logo_Plan de travail 1](https://github.com/user-attachments/assets/a3b16d4a-b1e6-4357-a8fe-4a8e616bc0d5)
 
 
 |                          |                          |
@@ -49,7 +49,7 @@ Béchamel started off as a discrete logic chip synth device and has since evolve
 optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiometers, 1x fast op-amp, 1x 3.5mm audio jack, 1x dual SMD dip switch, 1x SMD pushbutton)
 
 
-# HARDWARE BUILD INSTRUCTIONS
+# Hardware Build Instructions
 
 [KiCAD and Eagle PCBs](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/PCB%20files)
 
@@ -59,7 +59,7 @@ optional extras : (1x Raspberry Pi Zero, 1x Micro SD holder, 2x 10kΩ potentiome
 
 **Option #2 : Hand soldering (with flux)**
 
-# HDL BUILD INSTRUCTIONS
+# HDL files
 
 [Verilog, Pin constraints, and synthesized binaries ](https://github.com/merlinmarrs/iCE40HX-verilog-video-patterns/tree/main/verilog)
 
