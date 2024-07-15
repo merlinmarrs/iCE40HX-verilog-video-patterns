@@ -11,7 +11,8 @@ A Lattice iCE40HX1K-based FPGA developement board for live-playable video experi
 
 |                          |                          |
 :-------------------------:|:-------------------------:
-![image](https://github.com/user-attachments/assets/ec43d231-f804-41db-ba54-e15a378fc0b0)  | ![image](https://github.com/user-attachments/assets/5524e9eb-a8dd-4333-9468-72597a95a8ff)
+![image](https://github.com/user-attachments/assets/ec43d231-f804-41db-ba54-e15a378fc0b0)  | ![IMG_3808-1024x683](https://github.com/user-attachments/assets/49c9bb74-0dcc-44ab-9191-4f8257c90dd5)
+
 
 
 
